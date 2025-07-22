@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import logo from '../assets/Pizza-Hut-Logo.svg'
 import { useNavigate ,useLocation  } from 'react-router-dom'
 import { Menu } from 'lucide-react';

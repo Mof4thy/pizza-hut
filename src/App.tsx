@@ -14,19 +14,20 @@ function App() {
   return (
     <>
       <Router>
-          <Routes>
-              <Route path='/' element={<Layout/>}>
-                <Route index element={<Home/>}/>
-                <Route path='/home' element={<Home/>}/>
-                <Route path='/menu' element={<Menu/>}/>
-                <Route path='/about' element={<About/>}/>
-                <Route path='/contact' element={<Contact/>}/>
-                <Route path='/register' element={<Register/>}/>
-                <Route path='/login' element={<Login/>}/>
-                <Route path='/upload' element={<UploadMenuData/>}/>
-              </Route>
-            <Route path='*' element={<div>404 Page Not Found</div>}/>
-          </Routes>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route path="menu" element={<Menu />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="register" element={<Register />} />
+          <Route path="login" element={<Login />} />
+          <Route path="upload" element={<UploadMenuData />} />
+        </Route>
+
+        <Route path="*" element={<div>404 Page Not Found</div>} />
+      </Routes>
       </Router>
     </>
   )

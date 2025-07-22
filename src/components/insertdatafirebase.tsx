@@ -1,7 +1,5 @@
-import React from "react";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../firebase"; // make sure this points to your Firebase config
-import { Menu, Upload } from "lucide-react";
 
 const UploadMenuData = () => {
   const menuItems = [
