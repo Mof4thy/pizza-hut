@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+*{
+  box-sizing: border-box !important;
+}
+
+
+@theme {
+  --color-Primary-Red: #C1272D;         /* crimson-fire */
+  --color-Warm-Accent: #FFD460;         /* mozzarella-cream */
+  --color-Background-Neutral: #FAF3E0;  /* warm-dough */
+  --color-Fresh-Accent: #7C9473;        /* olive-green */
+  --color-Dark-Accent: #3E2C23;         /* woodfire-brown */
+  --color-Light-Gray: #D3D3D3;          /* smoked-ash */
+}
