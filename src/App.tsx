@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename="/pizza-hut">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
